@@ -1,0 +1,249 @@
+/*
+'************************************************************
+'*         TERMS & CONDITIONS / COPYRIGHT NOTICE            *
+'************************************************************
+'*   By Downloading or using this software, you agree to    *
+'*   the terms and conditions as stated in the Software     *
+'*   License Agreement.  An updated copy of this agreement  *
+'*   can be seen at http://www.pagedowntech.com/terms.      *
+'*                                                          *
+'*        PageDown Technology, LLC., Copyright 2011.        *
+'*             pagedowntech.com / pdshop.com                *
+'*                                                          *
+'*  (this copyright notice must not be altered or removed)  *
+'************************************************************
+*/
+
+/* General (affects entire page) */
+body {margin-top: 0px; margin-left: auto; margin-right: auto; background-color: ##BGPAGE##; background-image: ##PGBACKIMG##; background-repeat: ##PGBACKREP##; background-position: ##PGBACKPOS##;}
+A:hover {text-decoration: underline;}
+form {margin: 0px; background-color: transparent;}
+p {margin: 0px; padding:0px;}
+
+/* Main Page Sections */
+.body_container {margin-top: 0px; margin-left: auto; margin-right: auto;}
+.columndata_container {margin-top: 0px; margin-left: auto; margin-right: auto;}
+.columnspacer {}
+
+/* Shop Content Sections */
+.slogan {text-align: left;}
+.topbar {text-align: left; padding-bottom: 3px;}
+.middlebar {background-color: ##SBANCOLOR##; border-color: ##BORDBANNER5##; border-style: solid; border-width: 1px;}
+.topsec {text-align: left; border-color: ##BORDSECTOP##; border-style: solid; border-width: 1px;}
+.topbanner {background-color: ##BGBANNER1##; border-color: ##BORDBANNER1##; border-style: solid; border-width: 1px;}
+.bannertxt {color: ##MMTXCOLOR##; font-family: ##PDFONT##; font-size: 10px; font-weight: bold; text-decoration: none;}
+.searchbanner {background-color: ##SBANCOLOR##; border-color: ##BORDBANNER5##; border-style: solid; border-width: 1px; padding-top: 2px; padding-bottom: 2px; }
+.searchbanner img {position: relative; top: 0px; left: 4px;}
+.searchbanner form {margin-top: 0px;}
+.area1 {text-align: left; background-color: ##BGBANNER2##; border-color: ##BORDBANNER2##; border-style: solid; border-width: 1px;}
+.area2 {text-align: left; background-color: ##BGBANNER3##; border-color: ##BORDBANNER3##; border-style: solid; border-width: 1px;}
+.botsec {border-color: ##BORDSECBOT##; border-style: solid; border-width: 1px;}
+.botlinksec {background-color: ##BGBANNER5##;} 
+.botbanner {text-align: center; background-color: ##BGBANNER4##; border-color: ##BORDBANNER4##; border-style: solid; border-width: 1px;}
+.botbannermenu {text-align: center; padding: 10px; color: ##BGBANNER5##; font-family: ##PDFONT##; font-size: 12px;}
+.botbannermenu A {color: ##PDCOLOR5##;}
+.leftcol {text-align: left; background-color: ##LEFTBGCOLOR##; overflow: hidden;}
+.middlecol {text-align: left; background-color: ##MIDBGCOLOR##; overflow: hidden;}
+.rightcol {text-align: left; background-color: ##RIGHTBGCOLOR##; overflow: hidden;}
+.sectionspacer {width: auto; height: ##SPACERCOLH##px;}
+.google {float: left; padding-right: 5px;}
+.twitter_page {float: left; padding-left: 5px; padding-top: 0px; }
+.facebook_page {float: left; padding-left: 5px; padding-top: 0px;}
+.twitter_share {float: left; padding-right: 5px; padding-top: 5px; }
+.facebook_like {float: left; padding-top: 5px;background-color:#E1C586;}
+.minicart {padding-top: 5px; vertical-align: text-bottom; float: right; text-align: right; color: ##PDCOLOR5##; font-family: ##PDFONT##; font-size: 11px; font-weight: normal; text-decoration: none;}
+.minicart A {color: ##PDCOLOR5##; font-size: 12px; font-weight: bold; text-decoration: underline;}
+.currency_div {float: right; padding-left: 15px; padding-top:1px; font-family: ##PDFONT##; font-size: 11px; font-weight: normal;}
+.currency_div select {font-family: ##PDFONT##; font-size: 11px; font-weight: normal;}
+
+/* Section Headings */
+.headingtextS {text-align: left; padding: 1px; font-family: ##PDFONT##; font-size: 10px; font-weight: bold; text-decoration: none;}
+.headingtext {text-align: left; padding: 2px; font-family: ##PDFONT##; font-size: 12px; font-weight: bold; text-decoration: none;}
+.headingtextL {text-align: left; padding: 5px; font-family: ##PDFONT##; font-size: 14px; font-weight: bold; text-decoration: none;}
+.tabheading {text-align: left; font-family: ##PDFONT##; font-size: 10px; font-weight: bold; text-decoration: none;}
+.tabheadingL {text-align: left; padding-left: 6px; letter-spacing: 2px;  font-family: ##PDFONT##; font-size: 13px; font-weight: bold; text-decoration: none;}
+
+.customheading {text-align: left; color: #999999; background-color: ; font-family: ##PDFONT##; font-size: 16px; font-weight: bold; padding: 5px; border-color:#CCCCCC; border-style: none; border-width: 1px; text-decoration: none;}
+.headingmessages {text-align: left; padding-left: 10px; padding-top: 10px; color: ##PDCOLOR5##; font-family: ##PDFONT##; font-size: 11px; font-weight: normal;} 
+
+/* Shop Section Containers */
+.section_container {text-align: left; width: auto; overflow: hidden;}
+.section_topdata {width: auto; overflow: hidden; }
+.section_messages {float: left; padding-left: 10px; padding-top: 10px; color: ##PDCOLOR5##; font-family: ##PDFONT##; font-size: 11px; font-weight: normal;}
+.section_options {float: right; color: ##PDCOLOR3##; padding-top: 5px; padding-right: 10px; font-family: ##PDFONT##; font-size: 11px; font-weight: normal;}
+.section_options select {color: ##PDCOLOR3##; border: 1px solid #EEEEEE; font-family: ##PDFONT##; font-size: 10px; font-weight: normal;}
+.section_data {text-align: left; width: auto; margin: 10px; overflow: hidden;}
+
+/* Buttons & Links */
+.buttonsstandard {font-size:10px; font-weight: bold; font-family: ##PDFONT##; height: 20px; margin-left: 2px; margin-top: 2px; margin-bottom: 2px; margin-right: 2px;}
+.textlinks {padding-left: 2px; font-family: ##PDFONT##; font-size: 12px; font-weight: bold;}
+.textlinks A {font-family: ##PDFONT##; font-size: 12px; font-weight: bold;}
+.textlinks A:hover {text-decoration: underline;}
+.butttxt {font-family: ##PDFONT##; font-size: 11px; font-weight: bold; text-decoration: none;}
+.custombutton {color: #FFFFFF; background-color: #999999; font-size:11px; font-weight: bold; font-family: ##PDFONT##; margin-left: 2px; margin-top: 2px; margin-bottom: 2px; margin-right: 2px;} 
+.classicbutton {white-space: nowrap; display: inline-block; height: 20px; padding: 1px; margin: 1px;}
+.classicbuttontext {border-color: #EEEEEE; border-style: solid; border-width: 1px; padding-right: 8px; padding-left: 8px; padding-top: 2px; padding-bottom: 4px; font-size:11px; font-weight: bold; font-family: ##PDFONT##; text-decoration: none;}
+.classicbuttontext A:Hover {text-decoration: underline;}
+.cartbuttons_container {padding-top: 2px; padding-bottom: 2px;}
+.cartbuttons_container img {vertical-align: top;}
+.formbuttons_container {text-align: center; margin:15px;}
+#searchform_div img {position: relative; top: 5px;}
+
+/* Menu Tabs (Small) */
+.menutab {margin-right: 1px; margin-left: 1px; float: left; height: 15px; background-color: ##MMBGCOLOR##;}
+.menutabtext A {position: relative; top: 2px; color: ##MMTXCOLOR##; font-family: ##PDFONT##; font-size: 10px; font-weight: bold; text-decoration: none} 
+
+/* Menu Tabs (Large) */
+.menutabL {margin-right: 1px; margin-left: 1px; float: left; height: 20px; background-color: ##MMBGCOLOR##;}
+.menutabtextL A {position: relative; top: 2px; color: ##MMTXCOLOR##; font-family: ##PDFONT##; font-size: 14px; font-weight: bold; text-decoration: none} 
+
+/* Menu Tabs (Text Links) */
+.menutextlink A {padding: 2px; color: ##MMTXCOLOR##; font-family: ##PDFONT##; font-size: 10px; font-weight: bold; text-decoration: underline;}
+.menutextlinkL A {padding: 4px; color: ##MMTXCOLOR##; font-family: ##PDFONT##; font-size: 14px; font-weight: bold; text-decoration: underline;}
+
+/* Item Related */
+.itemname {color: ##PDCOLOR3##; font-family: ##PDFONT##; font-size: 12px; font-weight: bold; text-decoration: none;}
+.itemname A {color: ##PDCOLOR3##; font-family: ##PDFONT##; font-size: 12px; font-weight: bold; text-decoration: none;}
+.itemdesc {color: ##PDCOLOR4##; font-family: ##PDFONT##; font-size: 11px;}
+.itemdesc A {color: ##PDCOLOR4##; font-family: ##PDFONT##; font-size: 11px;}
+.price {color: ##PDCOLOR3##; font-family: ##PDFONT##; font-size: 12px; font-weight: bold;}
+.listname {color: ##PDCOLOR3##; font-family: ##PDFONT##; font-size: 12px; font-weight: bold; text-decoration: none;}
+.listname A {color: ##PDCOLOR3##; font-family: ##PDFONT##; font-size: 12px; font-weight: bold; text-decoration: none;}
+.listname A:hover {color: ##PDCOLOR3##; font-family: ##PDFONT##; font-size: 12px; font-weight: bold; text-decoration: underline;}
+.listimage {padding-top:5px; padding-right:5px; padding-bottom:5px;}
+.listdesc {padding-top:5px; padding-right:5px; padding-bottom:5px; color: ##PDCOLOR4##; font-family: ##PDFONT##; font-size: 11px;}
+.listprice {color: ##PDCOLOR3##; font-family: ##PDFONT##; font-size: 11px; font-weight: bold;}
+.listitemno {color: ##PDCOLOR3##; font-family: ##PDFONT##; font-size: 11px; font-weight: bold;}
+
+/* Item Detail Page */
+.itemdescription {color: ##PDCOLOR4##; font-family: ##PDFONT##; font-size: 12px; font-weight: normal;}
+.itemqtyinput {background-color: #FFFFFF; color: #000000; font-family: ##PDFONT##; font-size: 12px; font-weight: normal;}
+.itemstockmessage {margin-top: 5px; margin-bottom: 5px; color: ##PDCOLOR5##; font-family: ##PDFONT##; font-size: 12px; font-weight: normal;}
+.itemoptions_container {padding: 2px; }
+.itemoptionsgroup {color: ##PDCOLOR5##; font-family: ##PDFONT##; font-size: 14px; font-weight: normal; text-decoration: none;}
+.itemoptions {padding: 1px; color: ##PDCOLOR3##; font-family: ##PDFONT##; font-size: 12px; font-weight: bold; text-decoration: none;}
+.optionselect {background-color: #FFFFFF; color: ##PDCOLOR3##; border: 1px solid #000000; font-family: ##PDFONT##; font-size: 12px; font-weight: bold;}
+.optiontextinput {font-family: ##PDFONT##; font-size: 12px; font-weight: normal; background-color: #FFFFFF;}
+.optiontextarea {padding-right: 10px; vertical-align:baseline; font-family: ##PDFONT##; font-size: 12px; font-weight: normal; background-color: #FFFFFF;}
+.optioncheckbox {margin-right: 5px; vertical-align:baseline;}
+.optionradiobutton {margin-right: 5px; vertical-align:baseline;}
+.optionmonetaryinput {background-color: #FFFFFF; color: #000000; font-family: ##PDFONT##; font-size: 12px; font-weight: normal; width: 50px;}
+
+/* Item Reviews Page */
+.reviewscolumn_1 {width: 20%; float: left; overflow: hidden;}
+.reviewscolumn_2 {width: 60%; float: left; overflow: hidden;}
+.reviewscolumn_3 {width: 19%; float: left; overflow: hidden; text-align: right;}
+
+/* Category Related */
+.catname {color: ##PDCOLOR1##; font-family: ##PDFONT##; font-size: 14px; font-weight: bold; text-decoration: none;}
+.catname A {color: ##PDCOLOR1##; font-family: ##PDFONT##; font-size: 14px; font-weight: bold; text-decoration: none;}
+.catname A:hover {text-decoration: underline;}
+.catdesc {padding-bottom: 10px; color: ##PDCOLOR2##; font-family: ##PDFONT##; font-size: 11px; text-decoration: none;}
+.catdelim {color: ##PDCOLOR5##; font-family: ##PDFONT##; font-size: 8px; text-decoration: none;}
+.subcats {color: ##PDCOLOR1##; font-family: ##PDFONT##; font-size: 12px; font-weight: bold; text-decoration: none;}
+.subcats A {display:block;padding:0px; margin-right: 10px;  color: ##PDCOLOR1##; font-family: ##PDFONT##; font-size: 12px; font-weight: bold; text-decoration: none;}
+.subcats A:hover {text-decoration: underline;}
+.subcatlist_div {width: auto; overflow: hidden; padding: 5px;}
+.catlist_div {clear: both; margin-bottom: 10px;}
+.catitem_div {padding: 10px; overflow: hidden;}
+.catitemlist_div {width: 100%; overflow: hidden; padding: 5px;}
+.catitemlist_column1 {float: left; margin-right: 5px; overflow: hidden;}
+.catitemlist_column2 {float: left; margin-right: 5px; overflow: hidden;}
+.catitemlist_column3 {word-wrap: break-word; text-align: left; float: left; margin-right: 5px; overflow: hidden;}
+.catitemlist_column4 {text-align: right; float: left; overflow: hidden;}
+
+/* Top Level Category listing */
+.toplevelcat {padding-bottom: 2px; color: ##PDCOLOR1##; font-family: ##PDFONT##; font-size: 12px; font-weight: bold; text-decoration: none;}
+.toplevelcat A {color: ##PDCOLOR1##; font-family: ##PDFONT##; font-size: 12px; font-weight: bold; text-decoration: none;}
+.toplevelcat A:hover {text-decoration: underline;}
+.toplevelcatdot {color: ##PDCOLOR5##; font-family: ##PDFONT##; font-size: 11px; font-weight: normal; text-decoration: none;}
+.toplevelcatdes {color: ##PDCOLOR2##; font-family: ##PDFONT##; font-size: 11px; text-decoration: none;}
+.toplevelsub {padding-left: 12px; padding-bottom: 7px; color: ##PDCOLOR1##; font-family: ##PDFONT##; font-size: 12px; font-weight: normal; text-decoration: none;}
+.toplevelsub A {line-height: 16px; color: ##PDCOLOR1##; font-family: ##PDFONT##; font-size: 11px; font-weight: normal; text-decoration: none;}
+.toplevelsub A:hover {text-decoration: underline;}
+.toplevelsubdot {color: ##PDCOLOR5##; font-family: ##PDFONT##; font-size: 8px; font-weight: bold; text-decoration: none;}
+.toplevelsubdes {color: ##PDCOLOR2##; font-family: ##PDFONT##; font-size: 10px; text-decoration: none;}
+
+/* System Text & Error Messages */
+.messages {color: ##PDCOLOR5##; font-family: ##PDFONT##; font-size: 10px; font-weight: normal;}
+.messages A {color: ##PDCOLOR5##; font-family: ##PDFONT##; font-size: 10px; font-weight: normal;}
+.messages2 {color: ##PDCOLOR5##; font-family: ##PDFONT##; font-size: 14px; font-weight: bold;}
+.messages3 {color: ##PDCOLOR5##; font-family: ##PDFONT##; font-size: 16px; font-weight: bold; text-align: center;}
+.errors {color: red; font-family: ##PDFONT##; font-size: 10px; font-weight: bold;}
+.paginglinks {padding: 10px; padding-top: 25px; text-align: center; color: ##PDCOLOR5##; font-family: ##PDFONT##; font-size: 12px; font-weight: normal;}
+.paginglinks A {color: ##PDCOLOR5##; font-family: ##PDFONT##; font-size: 12px; font-weight: normal;} 
+
+/* Forms */
+.form_container {width: auto; background-color: ##FORMBGCOLOR##; padding: 15px; padding-left: 25px; padding-right: 25px;}
+.formheadings {color: ##PDCOLOR5##; font-family: ##PDFONT##; font-size: 12px; font-weight: bold; text-decoration: none;}
+.formheadings A {color: ##PDCOLOR5##; font-family: ##PDFONT##; font-size: 12px; font-weight: bold; text-decoration: underline;}
+.formheadings2 {padding-top: 10px; padding-bottom: 5px; color: ##PDCOLOR5##; font-style:italic; font-family: ##PDFONT##; font-size: 16px; font-weight: normal; text-decoration: none;}
+.formordertotal {color: ##PDCOLOR5##; font-family: ##PDFONT##; font-size: 12px; font-weight: bold; text-decoration: none;}
+.rowline {color: ##PDCOLOR5##; height: 1px;}
+.rowline2 {color: #EEEEEE; height: 1px;}
+.formfield {font-family: ##PDFONT##; font-size: 12px; font-weight: normal; background-color: #FFFFFF; width: 200px;}
+.formfield2 {font-family: ##PDFONT##; font-size: 12px; font-weight: normal; background-color: #FFFFFF; width: 50px;}
+.formfield3 {font-family: ##PDFONT##; font-size: 12px; font-weight: normal; background-color: #FFFFFF; width: 100px;}
+.formfield4 {font-family: ##PDFONT##; font-size: 12px; font-weight: normal; background-color: #FFFFFF; width: 275px;}
+.formfield5 {font-family: ##PDFONT##; font-size: 12px; font-weight: normal; background-color: #FFFFFF; width: 35px;}
+.formtextarea1 {font-family: ##PDFONT##; font-size: 12px; font-weight: normal; background-color: #FFFFFF; width: 400px; height: 100px;} 
+.formtextarea2 {font-family: ##PDFONT##; font-size: 12px; font-weight: normal; background-color: #FFFFFF; width: 300px; height: 100px;}
+.gatewaylogo {padding-left: 30px; padding-bottom: 10px;}
+.searchselect {margin-right: 3px; background-color: ##BUTTBGCOLOR##; color: ##BUTTTXCOLOR##; border: 1px solid #EEEEEE; font-family: ##PDFONT##; font-size: 13px; font-weight: normal;}
+.searchinput {font-family: ##PDFONT##; color: #000000; font-size: 13px; font-weight: normal; background-color: #FFFFFF; width: 125px;}
+.radiobuttons_container {padding: 1px; color: ##PDCOLOR3##; font-family: ##PDFONT##; font-size: 11px; font-weight: bold; text-decoration: none;}
+.radiobuttons {padding-right: 10px; vertical-align:baseline;}
+.checkboxes_container {padding: 1px; color: ##PDCOLOR5##; font-family: ##PDFONT##; font-size: 12px; font-weight: bold; text-decoration: none;}
+.checkboxes {padding-right: 5px; vertical-align:baseline;}
+
+/* Shopping Cart related */
+.cartdata {color: ##PDCOLOR3##; font-family: ##PDFONT##; font-size: 11px; font-weight: bold; text-decoration: none;}
+.cartdata A {color: ##PDCOLOR3##; font-family: ##PDFONT##; font-size: 11px; font-weight: bold; text-decoration: none;}
+.cartdata2 {color: ##PDCOLOR5##; font-family: ##PDFONT##; font-size: 10px; font-weight: bold; text-decoration: none;}
+.cartdata2 A {color: ##PDCOLOR5##; font-family: ##PDFONT##; font-size: 10px; font-weight: bold; text-decoration: none;}
+.cartcolumn_1 {width: 50%; float: left; overflow: hidden;}
+.cartcolumn_2 {width: 15%; float: left; overflow: hidden;}
+.cartcolumn_3 {width: 15%; float: left; overflow: hidden; text-align: right;}
+.cartcolumn_4 {width: 19%; float: left; overflow: hidden; text-align: right;}
+.carttotalcolumn_1 {width: 80%; float: left; overflow: hidden; text-align: right;}
+.carttotalcolumn_2 {width: 19%; float: left; overflow: hidden; text-align: right;}
+
+/* Floating Row */
+.td {float: left;}
+
+/* End/Clear Table Row */
+.tr {clear: both;  visibility:hidden ; height: 0px; font-size: 0; line-height: 0px;}
+
+/* Order Receipt Page */
+.orderheader {margin-top: 5px; background-color: ##HDBGCOLOR##; color: ##HDTXCOLOR##; font-family: ##PDFONT##; font-size: 11px; font-weight: bold; text-decoration: none;}
+.orderheader2 {color: ##HDTXCOLOR##; font-family: ##PDFONT##; font-size: 14px; font-weight: bold; text-decoration: none;}
+.ordertxt {color: ##PDCOLOR5##; font-family: ##PDFONT##; font-size: 11px;}
+.ordercolumn_1 {width: 15%; float: left; overflow: hidden;}
+.ordercolumn_2 {width: 40%; float: left; overflow: hidden;}
+.ordercolumn_3 {width: 15%; float: left; overflow: hidden; text-align: center;}
+.ordercolumn_4 {width: 15%; float: left; overflow: hidden; text-align: right;}
+.ordercolumn_5 {width: 14%; float: left; overflow: hidden; text-align: right;}
+.ordertotalcolumn_1 {width: 85%; float: left; overflow: hidden; text-align: right;}
+.ordertotalcolumn_2 {width: 14%; float: left; overflow: hidden; text-align: right;}
+
+/* AFFILIATE REPORT */
+.reportcolumn_1 {width: 30%; float: left; overflow: hidden;}
+.reportcolumn_2 {width: 14%; float: left; overflow: hidden;}
+.reportcolumn_3 {width: 14%; float: left; overflow: hidden; text-align: center;}
+.reportcolumn_4 {width: 14%; float: left; overflow: hidden; text-align: right;}
+.reportcolumn_5 {width: 14%; float: left; overflow: hidden; text-align: right;}
+.reportcolumn_6 {width: 13%; float: left; overflow: hidden; text-align: right;}
+
+/* POPUP BODY STYLE (will override above in the Pop-Up Window) */
+.popupbody {width: 97%; background-image: none; background-color: #CCCCFF; text-align: left; margin-top: 10px; margin-left: 10px; margin-right: 10px;} 
+.popupmessages {color: ##PDCOLOR5##; font-family: ##PDFONT##; font-size: 14px; font-weight: bold; text-align: center; }
+.popupimages {text-align: center;}
+
+/* POPUP CONTAINER STYLES */
+#popupMask {position: absolute; z-index: 200; top: 0px; left: 0px; width: 100%; height: 100%; background-image: url("img/background-trans.png"); background-repeat: repeat; display: none;}
+#popupContainer {position: absolute; z-index: 201; top: 0px; left: 0px; display: none; padding: 0px;}
+#popupInner {border: 2px solid #CCCCCC; background-color: #ffffff; width: 100%; height: 100%;}
+#popupFrame {width: 100%; height: 100%; position: relative; z-index: 202;}
+#popupTitleBar {background-color: ##BUTTBGCOLOR##; color: ##BUTTTXCOLOR##; font-weight: bold; height: 20px; padding: 0px; border-bottom: 2px solid #EEEEEE; border-top: 1px solid #EEEEEE; border-left: 1px solid #EEEEEE; border-right: 1px solid #EEEEEE; position: relative; z-index: 203;}
+#popupTitle {float:left; font-size: 10px;}
+#popupControls {float: right; cursor: pointer; cursor: hand;}
